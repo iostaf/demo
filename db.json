@@ -7,5 +7,5 @@
   "SubMediaType": [
     { "Id": 1, "Name": "CD", "MediaTypeID": 1, "MediaType": "A" },
     { "Id": 2, "Name": "DVD", "MediaTypeID": 1, "MediaType": "A" }
-  ],
+  ]
 }
