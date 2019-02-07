@@ -1,14 +1,11 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "MediaType": [
+    { "MediaTypeID": 1, "Name": "A" },
+    { "MediaTypeID": 2, "Name": "B" },
+    { "MediaTypeID": 3, "Name": "C" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "SubMediaType": [
+    { "Id": 1, "Name": "CD", "MediaTypeID": 1, "MediaType": "A" },
+    { "Id": 2, "Name": "DVD", "MediaTypeID": 1, "MediaType": "A" }
   ],
-  "profile": {
-    "name": "typicode"
-  }
 }
